@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FF6F61, #D4A5A5);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#theme{
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+.container {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px; /* Space between image and timer */
+}
+div {
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.timer {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
