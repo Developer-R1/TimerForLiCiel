@@ -1,4 +1,4 @@
-const targetDate = new Date("2024-10-01T23:59:59").getTime();
+const targetDate = new Date("2024-10-02T23:59:59").getTime();
 const updateCountdown = () => {
     const now = new Date().getTime();
     const timeGap = targetDate - now;
